@@ -49,3 +49,19 @@ body{
 }
 
 /* ---------------------About page css-------------- */
+
+@media screen and (max-width:768px) {
+    .navbar{
+        padding-bottom: 100px;
+    }
+   .header-sec{
+       height: 80vh;
+   }
+   .welcome .img {
+    padding-left: 0px;
+    }
+    .welcome-text {
+        padding: 30px;
+        /* padding-right: 0px; */
+    }
+}
